@@ -20,6 +20,17 @@
     color: #00a2ff;
 }
 
+.circleplus{
+    float: right;
+    margin-right: 30px;
+}
+
+.plus1{
+    margin: auto;
+    position: absolute;
+    left: 160px;
+}
+
 .tasks{   
     border-radius: 50%;
     height: 20px;
@@ -38,8 +49,9 @@
 .newtask{
         color: black;
         padding-left: 5px;
-        margin-left: 500px;      
-}
+        margin-left: 1000px;
+         margin-top: -20px; 
+        } 
 
 .container{
     display: flex;
@@ -72,6 +84,12 @@ h2{
     text-align: center;
 }
 
+.pchild{
+    margin: auto;
+    position: absolute;
+    left: 160px;
+}
+
 /* index2.html */
 
 .button{
@@ -98,7 +116,7 @@ h2{
     top: 50%;
     left: 50%;
     position: absolute;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black; 
     background-color: white;
     border-radius: 10px;
@@ -116,25 +134,30 @@ h2{
 
 /* index3.html */
 
-.newtask2{
-    color: black;
-    padding-left: 5px;
-    margin-left: 350px;
-}
-
 .newtask1{
  margin-left: 700px;
 }
 
-.tasks1{
-    
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
+/* .newtask2{
+    margin-top: -20px;
+    margin-left: 350px;
+    color: black;
+    padding-left: 5px;
+} */
+
+/* .newtask2{
+    margin-top: 35px;
+    color: black;
+    padding-left: 5px; 
+    margin-left: 700px;         
+} */
+
+.newtask2{
     margin-left: 700px;
-    background-color: rgb(7, 140, 249);
-    border-radius: 50%; 
+    margin-top: -20px;
+
 }
+
 
 .container1{
     margin-left: 500px;
@@ -153,24 +176,20 @@ h2{
     height: 100%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
  
      .navbar{
         padding: 10px 50px;
      }
 
     .newtask{
-        margin-left: 50px;
+        margin-left: 100px;
     }
  
     .new1{
-       margin: auto;  
+      margin: auto;  
       position: absolute; 
-      left: 100px;
-    /* align-items: center; */
-      /* position: relative; */
-      /* top: 50%; */
-      /* left:50%; */
+      left: 50px;
     }
 
     .container{
@@ -178,7 +197,7 @@ h2{
     }
   
     .arrow{
-        margin-left: 30px;
+        margin-left: 500px;
     }
 
     .newtask2{
@@ -186,7 +205,7 @@ h2{
     }
 
     .container1{
-        margin-left: 50px;
+        margin-left: 500px;
     }
 
 
