@@ -59,7 +59,6 @@
     justify-content: flex-start;
     margin-left: 180px;
     gap: 20px;
-
 }
 
 .box{
@@ -108,15 +107,17 @@ h2{
     background-image: url("./index.html");
     filter: blur(2px);
     height: 100%;
+    position: relative;
 }
 
 .new1{
     width: 250px;
-    height: 150px;
+    height: 170px;
     top: 50%;
     left: 50%;
     position: absolute;
-    padding: 10px;
+    transform: translate(-50%,-50%);
+    padding: 5px;
     border: 1px solid black; 
     background-color: white;
     border-radius: 10px;
@@ -154,7 +155,7 @@ h2{
 
 .newtask2{
     margin-left: 700px;
-    margin-top: -20px;
+    margin-top: -50px;
 
 }
 
@@ -176,38 +177,99 @@ h2{
     height: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width:250px) and (max-width: 900px) {
  
      .navbar{
         padding: 10px 50px;
+       
      }
 
     .newtask{
-        margin-left: 100px;
+        margin-left: 200px;
     }
  
     .new1{
-      margin: auto;  
-      position: absolute; 
-      left: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 250px;
+      height: 180px;
+
     }
 
     .container{
-        margin: 100px;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 600px;
+        height: 100vh;
+        position: relative;
     }
   
     .arrow{
-        margin-left: 500px;
+        margin-left: 50px;
     }
 
     .newtask2{
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .container1{
-        margin-left: 500px;
+        margin-left: 50px;
+    }
+   /* index3.html */
+
+    .container3{
+        margin-left: 200px;
+    }
+}
+
+/* For iphone SE */
+
+@media screen and (min-width:250px) and (max-width: 350px) {
+ 
+    .navbar{
+       padding: 10px 50px;
     }
 
+   .newtask{
+       margin-left: 50px;
+   }
 
+   .new1{
+     
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 250px;
+     height: 180px;
 
+   }
+
+   
+   .container{
+       margin-top: 100px;
+       margin-left: 50px;
+       width: 600px;
+       height: 100vh;
+       position: relative;
+   }
+ 
+   .arrow{
+       margin-left: 50px;
+   }
+
+   .newtask2{
+       margin-left: 50px;
+   }
+
+   .container1{
+       margin-left: 0px;
+   }
+  /* index3.html */
+
+   .container3{
+       margin-left: 200px;
+   }
 }
