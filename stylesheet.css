@@ -147,6 +147,7 @@ h2{
 
 .container1{
     margin-left: 500px;
+    
 }
 
 .arrow{
@@ -187,7 +188,9 @@ h2{
         margin-left: 50px;
         width: 400px;
         height: 100vh;
-        position: relative;
+        position: absolute;
+        left: 80px;
+        
     }
   
     .arrow{
@@ -234,7 +237,9 @@ h2{
        margin-left: 50px;
        width: 600px;
        height: 100vh;
-       position: relative;
+       position: absolute;
+       left: 80px;
+       
    }
      /* index3.html */
 }
@@ -264,7 +269,9 @@ h2{
        margin-left: 50px;
        width: 600px;
        height: 100vh;
-       position: relative;
+       position: absolute;
+       left: 80px;
+       
    }
      
 }
