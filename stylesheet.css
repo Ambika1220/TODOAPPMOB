@@ -139,26 +139,11 @@ h2{
  margin-left: 700px;
 }
 
-/* .newtask2{
-    margin-top: -20px;
-    margin-left: 350px;
-    color: black;
-    padding-left: 5px;
-} */
-
-/* .newtask2{
-    margin-top: 35px;
-    color: black;
-    padding-left: 5px; 
-    margin-left: 700px;         
-} */
-
 .newtask2{
     margin-left: 700px;
     margin-top: -50px;
 
 }
-
 
 .container1{
     margin-left: 500px;
@@ -181,7 +166,6 @@ h2{
  
      .navbar{
         padding: 10px 50px;
-       
      }
 
     .newtask{
@@ -201,7 +185,7 @@ h2{
     .container{
         margin-top: 100px;
         margin-left: 50px;
-        width: 600px;
+        width: 400px;
         height: 100vh;
         position: relative;
     }
@@ -226,27 +210,24 @@ h2{
 
 /* For iphone SE */
 
-@media screen and (min-width:250px) and (max-width: 350px) {
+@media screen and (min-width:250px) and (max-width: 375px) {
  
     .navbar{
        padding: 10px 50px;
     }
 
    .newtask{
-       margin-left: 50px;
+       margin-left: 10px;
    }
 
    .new1{
-     
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%,-50%);
      width: 250px;
      height: 180px;
-
    }
-
    
    .container{
        margin-top: 100px;
@@ -255,21 +236,35 @@ h2{
        height: 100vh;
        position: relative;
    }
+     /* index3.html */
+}
+
+/* For iPad Mini */
+@media screen and (min-width:250px) and (max-width: 800px) {
  
-   .arrow{
+    .navbar{
+       padding: 10px 50px;
+    }
+
+   .newtask{
+       margin-left: 10px;
+   }
+
+   .new1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 250px;
+     height: 180px;
+   }
+   
+   .container{
+       margin-top: 100px;
        margin-left: 50px;
+       width: 600px;
+       height: 100vh;
+       position: relative;
    }
-
-   .newtask2{
-       margin-left: 50px;
-   }
-
-   .container1{
-       margin-left: 0px;
-   }
-  /* index3.html */
-
-   .container3{
-       margin-left: 200px;
-   }
+     
 }
